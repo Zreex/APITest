@@ -9,6 +9,6 @@ app.get('/', (req, res) => {
     })
 })
 
-app.listen(3000, () => {
-    console.log('App is running!')
+app.listen(443, () => {
+    console.log('App is running on port 443')
 })
